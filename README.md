@@ -7,7 +7,9 @@ Create Page
 ![Screenshot (13)](https://github.com/user-attachments/assets/479d09ce-d6a5-4eab-b8c8-c23d2f135393)
 View Page
 
-##Installation
+## Installation
+`git clone nihalawasthi/Blog_app
+cd Blog_app`
 
 ```
 pip install -r requirements.txt
