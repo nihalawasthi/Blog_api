@@ -8,8 +8,10 @@ Create Page
 View Page
 
 ## Installation
-`git clone nihalawasthi/Blog_app
-cd Blog_app`
+```
+git clone nihalawasthi/Blog_app
+cd Blog_app
+```
 
 ```
 pip install -r requirements.txt
