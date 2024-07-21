@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog API</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            font-weight: 700;
+            overflow-x: hidden;
+            background: black linear-gradient(rgba(105, 211, 252, 0.25) 0%,
+                    rgba(255, 116, 161, 0.25) 86%,
+                    rgba(1, 0, 0, 0.25) 100%) no-repeat;
+            height: 100vh;
+        }
+
+        .btn {
+            border: 1.5px solid #fff;
+            border-radius: 0.75rem;
+            padding: 0.75rem 1.25rem;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .btn:hover {
+            color: #000;
+            background: #fff;
+        }
+
+        .nav-list {
+            display: flex;
+            list-style: none;
+        }
+
+        .nav-list li {
+            margin-right: 20px;
+        }
+
+        .nav-list li:last-child {
+            margin-right: 0;
+        }
+
+        .nav-list li a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        h1 {
+            color: white;
+            font-size: 4rem;
+            position: absolute;
+            top: 30%;
+        }
+
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        div ul {
+            position: absolute;
+            top: 55%;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Blog API with Django Rest</h1>
+        <ul class="nav-list">
+            <li><a href="/create" class="btn">Create</a></li>
+            <li><a href="/view" class="btn">View</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
